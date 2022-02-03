@@ -1,5 +1,15 @@
+import React, { useContext, useEffect } from "react";
+import { ShopContext } from "../context/shopContext";
+
 const HomePage = () => {
-  return <h1>HOME</h1>;
+  const { test } = useContext(ShopContext);
+
+  return (
+    <div>
+      <h1>HOME</h1>
+      {test}
+    </div>
+  );
 };
 
 export default HomePage;

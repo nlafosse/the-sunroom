@@ -14,6 +14,7 @@ class ShopProvider extends Component {
     product: {},
     checkout: {},
     isCartOpen: false,
+    test: "test1",
   };
 
   render() {
